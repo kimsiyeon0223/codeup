@@ -4,7 +4,7 @@ int main(){
     int n;
     int result=1; 
     scanf("%d", &n);
-    for(int i=1; i<n; i++){ //i=0으로 시작하면 안됨
+    for(int i=1; i<=n; i++){ 
         result=result*i;
     }
     printf("%d", result);
